@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SCHOOL ADMISSION FORM</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="background">
+    <h3 class="headingstyle">ADMISSION FORM FOR NEW STUDENTS</h3>
+    <h2>Please fill in the form below</h2>
+    <h2>Students details</h2>
+<form action="#">
+    <div>
+        <label class="labelstyle">First Name</label>
+        <input class="inputstyle" type="text" name="firstname" placeholder="Type here" required>
+
+        <label class="labelstyle">Second Name</label>
+        <input class="inputstyle" type="text" name="secondname" placeholder="Type here" required>
+
+        <label class="labelstyle">Surname Name</label>
+        <input class="inputstyle" type="text" name="surnamename" placeholder="Type here" required>
+    </div>
+    <div>
+        <label class="labelstyle">Email Address</label>
+        <input class="inputstyle" type="email" name="email" placeholder="example@mail.com" required>
+
+        <label class="labelstyle">Phone Number</label>
+        <input class="inputstyle" type="tel" name="phone" required value="+254">
+
+        <label class="labelstyle">Home Address</label>
+        <input class="inputstyle" type="text" name="homeaddress" placeholder="Type Here" required>
+    </div>
+    <div>
+        <label class="labelstyle">Date of Birth</label>
+        <input class="inputstyle" type="date" name="dob" placeholder="dd/MM/yyyy" required>
+
+        <label class="labelstyle">Date of Admission</label>
+        <input class="inputstyle" type="date" name="doa" placeholder="dd/MM/yyyy" required>
+
+        <label class="labelstyle">Gender</label>
+        <select class="inputstyle" name="payment">
+            <option value="male">MALE</option>
+            <option value="female">FEMALE</option>
+        </select>
+    </div>
+    <div>
+        <label class="labelstyle">Incase of any medical complications,type here...</label> <br>
+        <textarea name="aoi" id="" cols="30" rows="10"></textarea>
+    </div>
+
+<h2>Parent/Guardian Details(Please provide emergency contact)</h2>
+<div>
+    <label class="labelstyle">First Name</label>
+    <input class="inputstyle" type="text" name="firstname" placeholder="Type here" required>
+
+    <label class="labelstyle">Second Name</label>
+    <input class="inputstyle" type="text" name="secondname" placeholder="Type here" required>
+
+    <label class="labelstyle">Surname Name</label>
+    <input class="inputstyle" type="text" name="surnamename" placeholder="Type here" required>
+</div>
+<div>
+    <label class="labelstyle">Email Address</label>
+    <input class="inputstyle" type="email" name="email" placeholder="example@mail.com" required>
+
+    <label class="labelstyle">Phone Number</label>
+    <input class="inputstyle" type="tel" name="phone" required value="+254">
+
+    <label class="labelstyle">Home Address</label>
+    <input class="inputstyle" type="text" name="homeaddress" placeholder="Type Here" required>
+</div>   
+<div>
+    <input type="submit" value="submit" class="buttonstyle">
+</div>
+</form>
+</body>
+</html>
